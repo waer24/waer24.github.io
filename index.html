@@ -118,7 +118,7 @@
                 
                 
                 
-                <a class="navbar-item search" title="Search" href="javascript:;">
+                <a class="navbar-item search" title="Pencarian" href="javascript:;">
                     <i class="fas fa-search"></i>
                 </a>
                 
@@ -137,13 +137,13 @@
         
         <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
             <div class="level-left">
-                <time class="level-item has-text-grey" datetime="2019-03-14T02:37:52.238Z">2019-03-14</time>
+                <time class="level-item has-text-grey" datetime="2019-03-15T03:24:34.376Z">2019-03-15</time>
                 
                 
                 <span class="level-item has-text-grey">
                     
                     
-                    a minute read (About 121 words)
+                    2 minutes membaca (Sekitar 321 kata)
                 </span>
                 
                 
@@ -152,19 +152,37 @@
         
         <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
             
-                <a class="has-link-black-ter" href="/2019/03/14/hello-world/">Hello World</a>
+                <a class="has-link-black-ter" href="/2019/03/15/网站的诞生/"></a>
             
         </h1>
         <div class="content">
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="hljs-string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash hljs"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+            <h1 id="网站的诞生-Birth-of-the-website"><a href="#网站的诞生-Birth-of-the-website" class="headerlink" title="网站的诞生 | Birth of the website"></a>网站的诞生 | Birth of the website</h1><p>事如春梦了无痕，苟不记之笔墨，未免有负苍生之厚。</p>
+<h2 id="创建网站"><a href="#创建网站" class="headerlink" title="创建网站"></a>创建网站</h2><p>步骤梳理：</p>
+<ul>
+<li>下载node.js / hexo，启动服务</li>
+<li>更换hexo主题–icarus</li>
+<li>将域名指向github（之前已购买域名）</li>
+<li>自定义hexo的背景图</li>
+<li>从阿里云的dns =》cloudfare的dns，博客访问有https</li>
+</ul>
+<p>拔丁抽楔：</p>
+<ul>
+<li>下载hexo耗时长久，mac下命令行模式编译遇到问题。| 下载Xcode,内网下载成功</li>
+<li>更换主题无效 。| 需要保证.config.yml的theme名称和theme文件夹下的名称一致</li>
+<li>指向域名，只能用www登录。| 在github的CNAME中不要写www，同时阿里云增加A类解析，指向github的ipv4地址</li>
+<li>使用cloudflare增加https，填写过程费事费力，生怕写错</li>
+</ul>
+<p>未来可期：</p>
+<ul>
+<li>域名备案，增加国内dns地址，增强大陆地区的访问速度</li>
+<li>完善网站功能</li>
+</ul>
+<p>附录：</p>
+<ul>
+<li><a href="https://www.jianshu.com/p/196d6f5f73a5" target="_blank" rel="noopener">项目迁移详细步骤参考</a></li>
+<li><a href="https://www.jianshu.com/p/863f3f2d1733?utm_source=tuicool&amp;utm_medium=referral" target="_blank" rel="noopener">githubpage详细建站参考</a></li>
+<li><a href="https://blog.csdn.net/ztb8541/article/details/84536062" target="_blank" rel="noopener">国内外指向不同的dns地址配置</a></li>
+</ul>
 
         </div>
         
@@ -220,7 +238,7 @@
             <div class="level-item has-text-centered is-marginless">
                 <div>
                     <p class="heading">
-                        Post
+                        Artikel
                     </p>
                     <p class="title has-text-weight-normal">
                         1
@@ -230,7 +248,7 @@
             <div class="level-item has-text-centered is-marginless">
                 <div>
                     <p class="heading">
-                        Categories
+                        Kategori
                     </p>
                     <p class="title has-text-weight-normal">
                         0
@@ -240,7 +258,7 @@
             <div class="level-item has-text-centered is-marginless">
                 <div>
                     <p class="heading">
-                        Tags
+                        Tag
                     </p>
                     <p class="title has-text-weight-normal">
                         0
@@ -250,7 +268,7 @@
         </nav>
         <div class="level">
             <a class="level-item button is-link is-rounded" href="http://github.com/ppoffice" target="_blank">
-                Follow</a>
+                IKUTI</a>
         </div>
         
         
@@ -299,7 +317,7 @@
     <div class="card-content">
         <div class="menu">
         <h3 class="menu-label">
-            Links
+            Tautan
         </h3>
         <ul class="menu-list">
         
@@ -337,7 +355,7 @@
     <div class="card-content">
         <div class="menu">
             <h3 class="menu-label">
-                Categories
+                Kategori
             </h3>
             <ul class="menu-list">
             
@@ -355,21 +373,21 @@
 <div class="card widget">
     <div class="card-content">
         <h3 class="menu-label">
-            Recent
+            Terbaru
         </h3>
         
         <article class="media">
             
-            <a href="/2019/03/14/hello-world/" class="media-left">
+            <a href="/2019/03/15/网站的诞生/" class="media-left">
                 <p class="image is-64x64">
-                    <img class="thumbnail" src="/images/thumbnail.svg" alt="Hello World">
+                    <img class="thumbnail" src="/images/thumbnail.svg" alt>
                 </p>
             </a>
             
             <div class="media-content">
                 <div class="content">
-                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-03-14T02:37:52.238Z">2019-03-14</time></div>
-                    <a href="/2019/03/14/hello-world/" class="has-link-black-ter is-size-6">Hello World</a>
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-03-15T03:24:34.376Z">2019-03-15</time></div>
+                    <a href="/2019/03/15/网站的诞生/" class="has-link-black-ter is-size-6"></a>
                     <p class="is-size-7 is-uppercase">
                         
                     </p>
@@ -385,7 +403,7 @@
     <div class="card-content">
         <div class="menu">
         <h3 class="menu-label">
-            Archives
+            Arsip
         </h3>
         <ul class="menu-list">
         
@@ -409,7 +427,7 @@
     <div class="card-content">
         <div class="menu">
             <h3 class="menu-label">
-                Tags
+                Tag
             </h3>
             <div class="field is-grouped is-grouped-multiline">
                 
@@ -433,21 +451,21 @@
 <div class="card widget">
     <div class="card-content">
         <h3 class="menu-label">
-            Recent
+            Terbaru
         </h3>
         
         <article class="media">
             
-            <a href="/2019/03/14/hello-world/" class="media-left">
+            <a href="/2019/03/15/网站的诞生/" class="media-left">
                 <p class="image is-64x64">
-                    <img class="thumbnail" src="/images/thumbnail.svg" alt="Hello World">
+                    <img class="thumbnail" src="/images/thumbnail.svg" alt>
                 </p>
             </a>
             
             <div class="media-content">
                 <div class="content">
-                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-03-14T02:37:52.238Z">2019-03-14</time></div>
-                    <a href="/2019/03/14/hello-world/" class="has-link-black-ter is-size-6">Hello World</a>
+                    <div><time class="has-text-grey is-size-7 is-uppercase" datetime="2019-03-15T03:24:34.376Z">2019-03-15</time></div>
+                    <a href="/2019/03/15/网站的诞生/" class="has-link-black-ter is-size-6"></a>
                     <p class="is-size-7 is-uppercase">
                         
                     </p>
@@ -463,7 +481,7 @@
     <div class="card-content">
         <div class="menu">
         <h3 class="menu-label">
-            Archives
+            Arsip
         </h3>
         <ul class="menu-list">
         
@@ -487,7 +505,7 @@
     <div class="card-content">
         <div class="menu">
             <h3 class="menu-label">
-                Tags
+                Tag
             </h3>
             <div class="field is-grouped is-grouped-multiline">
                 
@@ -620,7 +638,7 @@ document.addEventListener('DOMContentLoaded', function () {
     
     
 
-<a id="back-to-top" title="Back to Top" href="javascript:;">
+<a id="back-to-top" title="Kembali ke atas" href="javascript:;">
     <i class="fas fa-chevron-up"></i>
 </a>
 <script src="/js/back-to-top.js" defer></script>
@@ -654,7 +672,7 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="searchbox ins-search">
     <div class="searchbox-container ins-search-container">
         <div class="searchbox-input-wrapper">
-            <input type="text" class="searchbox-input ins-search-input" placeholder="Type something...">
+            <input type="text" class="searchbox-input ins-search-input" placeholder="Tulis Sesuatu..">
             <span class="searchbox-close ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
         </div>
         <div class="searchbox-result-wrapper ins-section-wrapper">
@@ -666,11 +684,11 @@ document.addEventListener('DOMContentLoaded', function () {
     (function (window) {
         var INSIGHT_CONFIG = {
             TRANSLATION: {
-                POSTS: 'Posts',
-                PAGES: 'Pages',
-                CATEGORIES: 'Categories',
-                TAGS: 'Tags',
-                UNTITLED: '(Untitled)',
+                POSTS: 'Artikel',
+                PAGES: 'Halaman',
+                CATEGORIES: 'Kategori',
+                TAGS: 'Tag',
+                UNTITLED: 'Tanpa Judul',
             },
             CONTENT_URL: '/content.json',
         };
